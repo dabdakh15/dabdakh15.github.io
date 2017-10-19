@@ -1,0 +1,309 @@
+@import "compass/css3";
+
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700|Dosis:200,400,600);
+.navigation {
+    list-style-type: none;
+	font-family: Brush Script MT;
+	font-weight:bold;
+	margin: 0;
+    padding: 50;
+    overflow: hidden;
+    background-color: #333;
+	}
+	
+.navigation li {
+    float: left;
+	border-right:1px solid #bbb;
+	}
+
+.navigation li a {
+	font-size: 40px;
+	width: 100px;
+	}
+#face{
+	width: 25px;
+	height: 25px;
+}
+#inst{
+	width: 25px;
+	height: 25px;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+	}
+	
+body{
+	padding: 0;
+	margin: 0;
+}
+
+.navigation li a:hover {
+    background-color: black;
+	color: #c9f6ff;
+	}
+.welcome {
+	color: #708090;
+	font-family: Brush Script MT;
+	font-size: 20pt;
+	text-align: center;
+	letter-spacing: 0.1px;
+	}
+h1{
+  font-family: Dosis;
+  font-weight: 200;
+  position: absolute;
+  text-align: center;
+  display: block;
+  color: #fff;
+  top: 50%;
+  width: 100%;
+  margin-top: -55px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-transform: translate3d(0,0,0);
+  -moz-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+  opacity: 0;
+  -webkit-animation: anim 3.2s ease-out forwards 1s;
+  animation: anim 3.2s ease-out forwards 1s;
+}
+strong {
+  display: block;
+  font-weight: 400;
+}
+
+
+@-webkit-keyframes anim {
+  0% {
+    text-shadow: 0 0 50px #fff;
+    letter-spacing: 80px;
+    opacity: 0;
+    -webkit-transform: rotateY(-90deg);
+  }
+  50% {
+    text-shadow: 0 0 1px #fff;
+    opacity: 0.8;
+    -webkit-transform: rotateY(0deg);
+  }
+  75% {
+    text-shadow: 0 0 1px #fff;
+    opacity: 0.8;
+    -webkit-transform: rotateY(0deg) translateZ(60px);
+  }
+  100% {
+    text-shadow: 0 0 1px #fff;
+    opacity: 0.8;
+    letter-spacing: 8px;
+    -webkit-transform: rotateY(0deg) translateZ(100px);
+  }
+
+}
+@keyframes anim {
+  0% {
+    text-shadow: 0 0 50px #fff;
+    letter-spacing: 80px;
+    opacity: 0;
+    -moz-transform: rotateY(-90deg);
+  }
+  50% {
+    text-shadow: 0 0 1px #fff;
+    opacity: 0.8;
+    -moz-transform: rotateY(0deg);
+  }
+  75% {
+    text-shadow: 0 0 1px #fff;
+    opacity: 0.8;
+    -moz-transform: rotateY(0deg) translateZ(60px);
+  }
+  100% {
+    text-shadow: 0 0 1px #fff;
+    opacity: 0.8;
+    letter-spacing: 8px;
+    -moz-transform: rotateY(0deg) translateZ(100px);
+  }
+
+}
+#paragraph {
+font-family: Dosis;
+font-size: 23px;
+overflow: auto;
+color: black;
+height: 200px;
+background:#D3D3D3;
+text-align: left;
+text-indent: 50px;
+margin: 10px;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+border-bottom-right-radius: 10px;
+border-bottom-left-radius: 10px;
+}
+
+#dasha {
+width: 175px;
+height: 175px;
+float: right;
+border-radius: 50%;	
+margin-right: 60px;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+p. about-text {
+position: relative;
+top: 50%;
+transform: translateY(-50%);
+}
+button {
+	display: inline-block;
+	position: relative;
+    border: none;
+	text-align: center;
+    background: #c9f6ff;
+    color: white;
+    padding: 10px 20px;
+	margin-left: 38%;
+	cursor: pointer;
+	text-transform: uppercase;
+}
+#aboutdasha {
+font-weight: bold;
+text-align: center;
+float: center;
+font-family: Brush Script MT;
+font-size: 50px;
+}
+#text {
+display: inline-block;
+width: 620px;
+height: 500px;
+font-family: Brush Script MT;
+font-size: 25px;
+}
+#228
+{
+float: right;
+border-radius: 50%;	
+}
+#photo {
+float: right;
+border-radius: 50%;
+margin-top: 80px;
+border-radius: 50%;
+}
+#colloseum {
+	width: 180px;
+	height: 180px;
+	align: center;
+	border-radius: 50%;
+	margin-bottom: -20px;
+}
+#meinrome {
+	float:center;
+	width: 300px;
+	height: 350px;
+	border-radius: 3%;
+}
+.trips {
+font-family: Dosis;
+text-align: center;
+position: center;
+}
+.trip p {
+font-size: 40px;
+text-align: center;
+}
+
+h3{
+font-weight: bold;
+font-size: 60px;
+text-align: center;
+}
+h4{
+	font-size: 30px;
+	font-weight: italic;
+	text-align: center;
+}
+p. hrome{
+font-family: Brush Script MT;
+font-size: 60px;
+text-align: center;
+}
+#prague {
+	width: 180px;
+	height: 180px;
+	position: center;
+	border-radius: 50%;
+	margin-top: 70px;
+	margin-bottom: -20px;
+}
+h5{
+	font-size: 30px;
+	font-weight: italic;
+}
+#namesti {
+	float:center;
+	width: 350px;
+	height: 350px;
+	border-radius: 20%;
+}
+#pyramid {
+	width: 180px;
+	height: 180px;
+	align: center;
+	border-radius: 50%;
+	margin-top: 70px;
+	margin-bottom: -20px;
+}
+h6{
+	font-size: 30px;
+	font-weight: italic;
+	text-align: center;
+}
+#meinegypt {
+	position: center;
+	width: 350px;
+	height: 350px;
+	margin-left: 120px;
+	border-radius: 3%;
+}
+.sayhello {
+	color: #708090;
+	font-family: Brush Script MT;
+	text-align: center;
+	font-size: 25px;
+}
+#refs {background-color: white;
+	}
+
+.contact {
+	list-style-type: none;
+	background-color: white;
+	}
+.social {
+	list-style-type: none;
+	margin: 0;
+    padding: 50;
+    overflow: hidden;
+}
+.social li{
+	float:left;
+}	
+.social li a {
+	width: 100px;
+}
+#social{
+	float:right;
+}
+#menu{
+	float:left;
+}
+main{
+	background-color: #333;
+}
